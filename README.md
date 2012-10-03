@@ -27,11 +27,11 @@ console:
 
 You can set the max stack depth like so:
 
-    window.Backbone.StackTrace.maxDepth = 256;
+    Backbone.StackTrace.maxDepth = 256;
 
 If you want to see the stack trace working for everything, not just loops, do this:
 
-    window.Backbone.StackTrace.verbose = true;
+    Backbone.StackTrace.verbose = true;
 
 #### Known Issues
 
